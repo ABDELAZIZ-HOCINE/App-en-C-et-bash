@@ -1,9 +1,5 @@
 # create_ball.sh
 
-## Description
-
-`create_ball.sh` est un script Bash qui encode des fichiers et des dossiers spécifiés en utilisant `uuencode`. Il génère un script appelé `my_ball.sh` qui, lorsqu'il est exécuté, recrée les fichiers et dossiers d'origine à partir des fichiers encodés.
-
 ## Prérequis
 Assurez-vous que `uuencode` est installé sur votre système. Vous pouvez installer `uuencode` en installant le package `sharutils`.
 ### Installation de `sharutils`
@@ -13,7 +9,12 @@ sudo apt-get update
 sudo apt-get install sharutils
 
 
-## Utilisation du Script
+## Description
+
+`create_ball.sh` est un script Bash qui encode des fichiers et des dossiers spécifiés en utilisant `uuencode`. Il génère un script appelé `my_ball.sh` qui, lorsqu'il est exécuté, recrée les fichiers et dossiers d'origine à partir des fichiers encodés.
+
+
+##### Utilisation du Script
 
 Pour utiliser le script `create_ball.sh` afin de coder et décoder des fichiers, suivez les étapes suivantes :
 
@@ -28,7 +29,7 @@ Pour utiliser le script `create_ball.sh` afin de coder et décoder des fichiers,
    chmod u+x my_ball.sh
    ./my_ball.sh
 
-## Utilisation du Programme encoder
+#Utilisation du Programme encoder
 
 Pour encoder des fichiers avec le programme encoder, suivez les étapes suivantes :
 
