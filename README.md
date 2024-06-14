@@ -1,7 +1,8 @@
 # create_ball.sh
 
 ## Prérequis
-Assurez-vous que `uuencode` est installé sur votre système. Vous pouvez installer `uuencode` en installant le package `sharutils`.
+Assurez-vous que `uuencode` est installé sur votre système. Vous pouvez installer `uuencode`
+en installant le package `sharutils`.
 ### Installation de `sharutils`
 #### Sur Debian/Ubuntu :
 ```bash
@@ -11,7 +12,9 @@ sudo apt-get install sharutils
 
 ## Description
 
-`create_ball.sh` est un script Bash qui encode des fichiers et des dossiers spécifiés en utilisant `uuencode`. Il génère un script appelé `my_ball.sh` qui, lorsqu'il est exécuté, recrée les fichiers et dossiers d'origine à partir des fichiers encodés.
+`create_ball.sh` est un script Bash qui encode des fichiers et des dossiers spécifiés en utilisant `uuencode`.
+Il génère un script appelé `my_ball.sh` qui, lorsqu'il est exécuté, recrée les fichiers et dossiers d'origine
+à partir des fichiers encodés.
 
 
 ##### Utilisation du Script
